@@ -37,7 +37,6 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    '@nuxtjs/style-resources',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
   ],
@@ -47,12 +46,6 @@ export default {
   modules: [
     '@nuxtjs/pwa',
   ],
-  styleResources: {
-    scss: [
-      '~/assets/scss/_variables.scss',
-      '~/assets/scss/_mixins.scss'
-    ]
-  },
   manifest: {
     name: 'TP-Demo Nuxt-VideoJs',
     short_name: 'TP',
