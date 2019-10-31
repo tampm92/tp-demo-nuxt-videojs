@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.btn-blue {
+    @apply bg-blue-300;
+}
+.bottom-2 {
+    bottom: 2rem;
+}
+.right-2 {
+    right: 2rem;
+}

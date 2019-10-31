@@ -1,0 +1,9 @@
+@import "video.js/dist/video-js.css";
+@import "silvermine-videojs-quality-selector/dist/css/quality-selector.css";
+@import "./videojs-custom.scss";
+
+html, body, #__nuxt, #__layout {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+}
