@@ -26,6 +26,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/scss/tailwind.scss',
     '~/assets/scss/global.scss'
   ],
   /*
@@ -37,14 +38,13 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss',
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
     '@nuxtjs/pwa',
+    '@nuxtjs/style-resources',
   ],
   manifest: {
     name: 'TP-Demo Nuxt-VideoJs',
@@ -55,6 +55,12 @@ export default {
     background_color: '#000',
     ogImage: `https://live.staticflickr.com/65535/48992121062_769c357412_o.png`
   },
+  styleResources: {
+    scss: [
+      '~/assets/scss/_variables.scss',
+      '~/assets/scss/_mixins.scss'
+    ]
+  },
   /*
   ** Build configuration
   */
@@ -63,6 +69,17 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
+    },
+    postcss: {
+      // Add plugin names as key and arguments as value
+      // Install them before as dependencies with npm or yarn
+      plugins: {
+          // Disable a plugin by passing false as value
+          tailwindcss: {
+            configPath: '~/tailwind.config.js',
+            cssPath: '~/assets/scss/tailwind.scss'
+          }
+      },
     }
   }
 }

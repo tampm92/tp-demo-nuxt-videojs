@@ -6,8 +6,6 @@
 */
 module.exports = {
   theme: {},
-  variants: {
-    borderWidth: ['responsive', 'odd', 'hover', 'focus']
-  },
+  variants: {},
   plugins: []
 }
