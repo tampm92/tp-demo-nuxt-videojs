@@ -1,5 +1,7 @@
 # TP-Demo Nuxt-VideoJs-TailwindCSS
 
+> Demo [here](https://tp-demo-nuxt-videojs.netlify.com/)
+
 ## Build Setup
 
 ``` bash
