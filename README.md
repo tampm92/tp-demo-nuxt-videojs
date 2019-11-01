@@ -1,6 +1,4 @@
-# tp-demo-nuxt-videojs
-
-> My riveting Nuxt.js project
+# TP-Demo Nuxt-VideoJs-TailwindCSS
 
 ## Build Setup
 
