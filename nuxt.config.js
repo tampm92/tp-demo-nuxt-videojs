@@ -21,7 +21,11 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: {
+    color: '#42b883',
+    height: '5px',
+    duration: 10000
+  },
   /*
   ** Global CSS
   */
@@ -51,7 +55,7 @@ export default {
     short_name: 'TP',
     lang: 'en',
     description: 'TP-Demo Nuxt-VideoJs-Tailwindcss',
-    theme_color: '#01229b',
+    theme_color: '#188269',
     background_color: '#000',
     ogImage: `https://live.staticflickr.com/65535/48992121062_769c357412_o.png`
   },
