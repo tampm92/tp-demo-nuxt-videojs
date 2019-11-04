@@ -24,6 +24,7 @@
             <div class="text-xl md:text-2xl">
               <p>Vue</p>
               <p>Nuxt</p>
+              <p>PWA</p>
               <p>Tailwind CSS</p>
               <p>VideoJs</p>
               <div class="text-sm md:text-xl ml-2 text-gray-500">

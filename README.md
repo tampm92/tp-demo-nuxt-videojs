@@ -2,6 +2,12 @@
 
 > Demo [here](https://tp-demo-nuxt-videojs.netlify.com/)
 
+## Referents
+
+- [VideoJs](https://videojs.com/)
+- [TP Awesome Nuxt](https://github.com/tampm92/tp-awesome/tree/master/vuejs/nuxt)
+- [Nuxt PWA](https://pwa.nuxtjs.org/)
+
 ## Build Setup
 
 ``` bash
